@@ -1,6 +1,5 @@
 const {test,expect} = require('@playwright/test')
 const dotenv = require('dotenv');
-const process = require('process');
 dotenv.config({ override: true });
 const username = process.env.USERNAME
 const password = process.env.PASSWORD
